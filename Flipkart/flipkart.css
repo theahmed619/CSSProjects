@@ -1,0 +1,231 @@
+*{ 
+    margin: 0%;
+    padding:0%;
+   
+}
+.navbar{
+    width: 99%;
+    height: 42px;
+    background-color: #ffffff;
+    padding: 12px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.nav1{
+    width: 700px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-right: 43px; */
+
+}
+.logo-box{
+    background-image: url("flipkartlogo.svg");
+    width: 160px;
+    height: 40px;
+   
+}
+.search-box{
+   
+    display: flex;
+    align-items: center;
+    margin-left: 31px;
+    /* border-radius: 5px 0px 0px 5px; */
+    
+    
+}
+.search-box span{
+    width: 44px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+
+    
+    font-size: 25px;
+    font-weight: 400;
+    border: none;
+    /* background-color: #b3c4e371; */
+    background-color: #f0f5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.inpbar{
+    border: 2px solid transparent;
+    width: 450px;
+    height: 40px;
+    border: none;
+    margin-right: 10px;
+    /* background-color: #b3c4e371; */
+    background-color: #f0f5ff;
+    
+    font-size: 15px;
+}
+/* Login Box */
+.nav2{
+    width: 530px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 2px;
+}
+.login-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+.log{
+    border: none;
+    font-size: 16px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+    margin-left: 7px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    width: 32px;
+
+}
+.cart-box{
+    width: 100px;
+    padding: 0px 20px;
+}
+.cart-box .cart span{
+    width: 24px;
+    margin-right: 8px;
+}
+.store{
+    display: flex;
+    align-items: center;
+    margin-left: -26px
+}
+.seller-box{
+    width: 190px;
+}
+.bc{
+    width: 120px;
+    margin-left: 10px;
+}
+
+.menu-box{
+    width: 80px;
+}
+/* Pane main*/
+.pane-main{
+    background-color: #eaeaea;
+    width: 99%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel1{
+   height: 170px;
+   width:95% ;
+   display: flex;
+   align-items: center;
+   background-color: #ffffff;
+   justify-content: space-evenly;
+   position: absolute;
+   top: 77px;
+  
+}
+.box1{
+    width: 122px;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box1 p{
+
+    position: relative;
+    top: 70px;
+   
+}
+.fs{
+    /* font size */
+    font-size: 16px;
+}
+/* Panel 2 */
+.panel2{
+    height: 200px;
+    width:95% ;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 272px;
+   
+   
+ }
+.airplane{
+
+    width: 100%;
+    height: 170px;
+   background-image: url("airplane.webp");
+   background-size: cover;
+    
+
+}
+.panel3{
+    height: 300px;
+    width:95% ;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 494px;
+    flex-wrap: wrap;
+    
+}
+.panel3-box{
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+}
+.p3b{
+    margin-top: 2px;
+    height: 250px;
+    width: 180px;   
+    background-size: cover;
+    /* justify-content: space-around; */
+    display: flex;
+    margin: 17px;
+    margin-top: 52px;
+    border: 1px solid #e0e0e0;
+    
+}
+footer{
+
+    width: 99%;
+    height: 42px;
+    background-color: black;
+    padding: 12px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -780px;
+    align-items: center;
+   
+  
+}
+.foot{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
